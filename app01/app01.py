@@ -11,4 +11,4 @@ def home():
 
 if __name__ == "__main__":
     app.debug=True
-    app.run(host='192.168.1.81', port=1146)
+    app.run(host='0.0.0.0', port=1146)
